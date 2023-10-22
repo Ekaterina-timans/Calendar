@@ -1,0 +1,33 @@
+.date {
+    width: 130px;
+    margin: 5px;
+}
+.tbl {
+    margin: 40px 0 0 130px;
+    font-size: 20px;
+    background-color: rgb(218, 218, 240);
+    box-shadow: 10px 5px 5px rgb(145, 145, 151);
+}
+.td {
+    text-align: center;
+    cursor: pointer; 
+    
+}
+.header {
+    background-color: rgb(168, 168, 237);
+    padding: 0%;
+}
+
+.tbl tr :nth-child(1){
+    color:red;
+}
+
+.tbl tr :nth-child(7){
+    color:red;
+}
+
+.tbl td.selected {
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+}
